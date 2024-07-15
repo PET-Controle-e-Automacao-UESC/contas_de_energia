@@ -6,9 +6,18 @@
 
 ## Índice
   - [Autores](#autores)
+  - [Modelos Utilizados](#modelos-utilizados)
   - [Objetivos do Projeto](#objetivos-do-projeto)
   - [Métodos](#métodos)
   - [Referências Bibliográficas](#referências-bibliográficas)
+
+## Modelos Utilizados
+- KNN (K vizinhos mais próximos, ou K-nearest Neighbours)
+- Redes Neurais Convolucionais
+- Regressão Linear
+- Regressão Polinomial
+- Regressão Logística
+- Support Vector Machine (SVM)
 
 ## Objetivos do Projeto
 
