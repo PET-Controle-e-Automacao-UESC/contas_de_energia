@@ -28,3 +28,6 @@
 - https://docs.google.com/spreadsheets/d/1VGiikZQw777v0lukmiuCcsmX5bZUmtexViz_g5WPQH0/edit?usp=sharing
 - https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.epe.gov.br%2Fsites-pt%2Fpublicacoes-dados-abertos%2Fpublicacoes%2FDocuments%2FCONSUMO%20MENSAL%20DE%20ENERGIA%20EL%C3%89TRICA%20POR%20CLASSE.xls&wdOrigin=BROWSELINK
 - https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/consumo-de-energia-eletrica
+
+## Anotações:
+- https://docs.google.com/document/d/1QprDh_X4Gq2GjTCHd9zXTclgx_sWD3FyDebUT3FaZSI/edit?usp=sharing
