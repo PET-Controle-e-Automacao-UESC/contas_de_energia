@@ -12,6 +12,7 @@
   - [Referências Bibliográficas](#referências-bibliográficas)
 
 ## Modelos Utilizados
+- K-means
 - KNN (K vizinhos mais próximos, ou K-nearest Neighbours)
 - Redes Neurais Convolucionais
 - Regressão Linear
