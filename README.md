@@ -12,7 +12,9 @@
   - [Referências Bibliográficas](#referências-bibliográficas)
 
 ## Modelos Utilizados
+- Árvore de Decisão (Decision Tree)
 - Ensemble
+- Floresta Randômica (Random Forest)
 - Redes Neurais Convolucionais
 - Regressão Linear
 - Regressão Polinomial
