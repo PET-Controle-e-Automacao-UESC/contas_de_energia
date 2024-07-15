@@ -12,12 +12,10 @@
   - [Referências Bibliográficas](#referências-bibliográficas)
 
 ## Modelos Utilizados
-- K-means
-- KNN (K vizinhos mais próximos, ou K-nearest Neighbours)
+- Ensemble
 - Redes Neurais Convolucionais
 - Regressão Linear
 - Regressão Polinomial
-- Regressão Logística
 - Support Vector Machine (SVM)
 
 ## Objetivos do Projeto
