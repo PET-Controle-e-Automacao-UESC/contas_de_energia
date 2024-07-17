@@ -1,6 +1,7 @@
 # PETCA - Projeto de Análise de Contas de Energia com Aprendizado de Máquina e Redes Neurais
 
 ## Autores
+- [Eduardo Takeshi Watanabe](https://github.com/wtksh)
 - [Igor Sousa dos Santos Santana](https://github.com/igorssant)
 - [João Sousa da Silva](https://github.com/JoaoVictor55)
 
