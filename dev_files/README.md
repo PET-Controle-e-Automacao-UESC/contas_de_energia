@@ -3,6 +3,8 @@
 ## Índice
 - [Pré-requisitos](#pré-requisitos)
 - [Baixar o Anaconda](#anaconda)
+    - [Anaconda para Windows](#windows-1)
+    - [Anaconda para Linux e MacOS](#linux-e-macos-1)
 - [Configurando o Anaconda](#configurações-do-anaconda)
 - [Criando Ambiente Virtal](#criando-ambiente-virtal-utilizando-o-arquivo-environmentyml)
 
@@ -10,7 +12,7 @@
 ### Windows
 Caso você esteja utilizando o sistema operacional Windows, será necessário que você baixe a linguagem Python em sua máquina.
 
-Para isso entre no site oficial do Python utiliando este [link](https://www.python.org/) e siga as diretivas do site para instalar e configurar o intepretador da linguagem em sua máquina.
+Para isso entre no site oficial do Python utilizando este [link](https://www.python.org/) e siga as diretivas do site para instalar e configurar o intepretador da linguagem em sua máquina.
 
 ### Linux e MacOS
 Caso você esteja usando Linux ou MacOS, não há nenhum pré-requisito.
