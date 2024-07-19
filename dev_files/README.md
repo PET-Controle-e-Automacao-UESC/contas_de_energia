@@ -7,6 +7,7 @@
         - [Anaconda para Windows](#windows-1)
         - [Anaconda para Linux e MacOS](#linux-e-macos-1)
 - [Criando Ambiente Virtal](#criando-ambiente-virtal-utilizando-o-arquivo-environmentyml)
+- [Documentação do Anaconda](#documentação-do-anaconda)
 
 ## Pré-requisitos
 ### Windows
@@ -55,3 +56,10 @@ conda env create -f environment.yml
 ```
 
 Após a execução do comando, ative o ambiente virtual e utilize a vontade.
+```sh
+conda activate .petca-venv
+```
+
+## Documentação do Anaconda
+Para acessar a documentação do anaconda, utilize o link abaixo:
+- [Link para o site do Anaconda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
