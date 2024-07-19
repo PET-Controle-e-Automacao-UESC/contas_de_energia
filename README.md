@@ -1,6 +1,7 @@
 # PETCA - Projeto de Análise de Contas de Energia com Aprendizado de Máquina e Redes Neurais
 
 ## Autores
+- [Eduardo Takeshi Watanabe](https://github.com/wtksh)
 - [Igor Sousa dos Santos Santana](https://github.com/igorssant)
 - [João Sousa da Silva](https://github.com/JoaoVictor55)
 
@@ -10,6 +11,7 @@
   - [Objetivos do Projeto](#objetivos-do-projeto)
   - [Métodos](#métodos)
   - [Referências Bibliográficas](#referências-bibliográficas)
+  - [Anotações](##anotações)
 
 ## Modelos Utilizados
 - Árvore de Decisão (Decision Tree)
@@ -29,5 +31,5 @@
 - https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.epe.gov.br%2Fsites-pt%2Fpublicacoes-dados-abertos%2Fpublicacoes%2FDocuments%2FCONSUMO%20MENSAL%20DE%20ENERGIA%20EL%C3%89TRICA%20POR%20CLASSE.xls&wdOrigin=BROWSELINK
 - https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/consumo-de-energia-eletrica
 
-## Anotações:
+## Anotações
 - https://docs.google.com/document/d/1QprDh_X4Gq2GjTCHd9zXTclgx_sWD3FyDebUT3FaZSI/edit?usp=sharing
