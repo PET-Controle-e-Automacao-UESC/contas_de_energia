@@ -4,8 +4,8 @@
 - [Pré-requisitos](#pré-requisitos)
 - [Baixar o Anaconda](#anaconda)
     - [Configurando o Anaconda](#configurações-do-anaconda)
-    - [Anaconda para Windows](#windows-1)
-    - [Anaconda para Linux e MacOS](#linux-e-macos-1)
+        - [Anaconda para Windows](#windows-1)
+        - [Anaconda para Linux e MacOS](#linux-e-macos-1)
 - [Criando Ambiente Virtal](#criando-ambiente-virtal-utilizando-o-arquivo-environmentyml)
 
 ## Pré-requisitos
@@ -25,14 +25,14 @@ Para baixar o Anaconda, vá até a página de Download gratuito do anaconda, ou 
 Escolha sua pasta de instalação e baixe. Anaconda é multiplataforma, ou seja, funciona perfeitamente em qualquer sistema operacional (Windows, Linux MacOS).
 
 ### Configurações do Anaconda
-### Windows
+#### Windows
 Em seguida, abra o instalador do anaconda e siga os passos. É indicado que siga a instalação padrão do Anaconda e não mudar nenhuma das opções cadastradas previamente pelo time do Anaconda.
 
 O Anaconda será então instalado e configurado automaticamente no Windows.
 
 Caso você use windows este passo foi o único necessário para configurar o Anaconda. Pode ignorar o passo seguinte e pular para [Criar Ambiente Virtual Utiliando o arquivo environment.yml](#criando-ambiente-virtal-utilizando-o-arquivo-environmentyml).
 
-### Linux e MacOS
+#### Linux e MacOS
 Em seguida, abra o terminal e siga para a pasta onde o arquivo de instalação foi baixado.
 
 Na pasta, descompacte o arquivo, caso necessário, e execute o arquivo *shell script* de instalação do anaconda.
