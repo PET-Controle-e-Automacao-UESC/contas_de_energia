@@ -11,7 +11,7 @@
   - [Objetivos do Projeto](#objetivos-do-projeto)
   - [Métodos](#métodos)
   - [Referências Bibliográficas](#referências-bibliográficas)
-  - [Anotações](##anotações)
+  - [Anotações](#anotações)
 
 ## Modelos Utilizados
 - Árvore de Decisão (Decision Tree)
