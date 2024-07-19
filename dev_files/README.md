@@ -49,3 +49,9 @@ Após a instalação, o Anaconda irá imprimir comandos úteis para rodar o anac
 A instalação está finalizada e o Anaconda já pode ser usado normalmente.
 
 ## Criando Ambiente Virtal utilizando o arquivo environment.yml
+Para criar o ambiente virtual utilizando o arquivo `environment.yml`, use o comando abaixo:
+```sh
+conda env create -f environment.yml
+```
+
+Após a execução do comando, ative o ambiente virtual e utilize a vontade.
