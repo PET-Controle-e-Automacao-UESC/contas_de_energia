@@ -7,6 +7,7 @@
         - [Anaconda para Windows](#windows-1)
         - [Anaconda para Linux e MacOS](#linux-e-macos-1)
 - [Criando Ambiente Virtal](#criando-ambiente-virtal-utilizando-o-arquivo-environmentyml)
+- [Atualizando um Ambiente Virtual](#atualizando-um-ambiente-virtual)
 - [Documentação do Anaconda](#documentação-do-anaconda)
 
 ## Pré-requisitos
@@ -58,6 +59,24 @@ conda env create -f environment.yml
 Após a execução do comando, ative o ambiente virtual e utilize a vontade.
 ```sh
 conda activate .petca-venv
+```
+
+## Atualizando um Ambiente Virtual
+Caso já possua um ambiente virtual criado e não queira criar um novo. Vá para o arquivo `environment.yml` e mude o nome que se encontra na linha `1`.
+Nome antigo:
+```yml
+name: .petca-venv
+```
+
+Mude para um nome à sua escolha:
+```yml
+name: .nome-a-sua-escolha
+```
+
+E salve o arquivo. Depois de salvo, utilize os comandos abaixo em um terminal a sua escolha e o Anaconda irá atualizar todos os pacotes e bibliotecas automaticamente enquanto baixa os novos.
+```sh
+conda activate nome-do-seu-ambiente-virtual
+conda env update --file environment.yml --prune
 ```
 
 ## Documentação do Anaconda
