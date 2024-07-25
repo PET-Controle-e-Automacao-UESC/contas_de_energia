@@ -13,3 +13,4 @@ dependencies:
   - pip
   - tensorflow
   - seaborn
+  - keras
