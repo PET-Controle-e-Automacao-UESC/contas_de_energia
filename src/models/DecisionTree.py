@@ -32,44 +32,41 @@ class DecisionTree:
 			class_weight = class_weight,
 			ccp_alpha = ccp_alpha)
 
-	def fit(self, X:np.array, y:np.array, sample_weight:bool = None, check_input:bool = True) -> None:
-		self.decisionTreeClassifier.fit(X = X, y = y, sample_weight = sample_weight, check_input = check_input)
+	def fit(self, X:np.array, y:np.array, sample_weight:bool = None, check_input:bool = True) -> DecisionTreeClassifier:
+		return self.decisionTreeClassifier.fit(X = X, y = y, sample_weight = sample_weight, check_input = check_input)
 
 	def apply(self, X:np.array, check_input:bool = True) -> np.array:
-		self.decisionTreeClassifier.apply(X = X,check_input = check_input)
+		return self.decisionTreeClassifier.apply(X = X,check_input = check_input)
 
-	def cost_complexity_pruning_path(self, X:np.array, y:np.array, sample_weight:list|int = None):
-		self.decisionTreeClassifier.cost_complexity_pruning_path(X = X, y = y, sample_weight = sample_weight)
-
-	def decision_path(self, X:np.array, check_input:bool = True):
+	def decision_path(self, X:np.array, check_input:bool = True) -> None:
 		self.decisionTreeClassifier.decision_path(X = X, check_input = check_input)
 
-	def get_depth(self):
-		pass
+	def get_depth(self) -> int:
+		return self.decisionTreeClassifier.get_depth()
 
-	def get_number_of_leaves(self):
-		pass
+	def get_number_of_leaves(self) -> int:
+		return self.decisionTreeClassifier.get_n_leaves()
 
-	def get_parameters(self, deep_copy:bool = True):
-		pass
+	def get_parameters(self, deep_copy:bool = True) -> dict:
+		return self.decisionTreeClassifier.get_params(deep = deep_copy)
 
 	def get_metadata_routing(self):
-		pass
+		return self.decisionTreeClassifier.get_metadata_routing()
 
-	def predict(self, X:np.array, check_input:bool = True):
-		pass
+	def predict(self, X:np.array, check_input:bool = True) -> np.array:
+		return self.decisionTreeClassifier.predict(X = X, check_input = check_input)
 
-	def predict_log_probability(self, X:np.array):
-		pass
+	def predict_log_probability(self, X:np.array) -> list:
+		return self.decisionTreeClassifier.predict_log_proba(X)
 
-	def predict_proba(self, X:np.array, check_input:bool = True):
-		pass
+	def predict_proba(self, X:np.array, check_input:bool = True) -> list:
+		return self.decisionTreeClassifier.predict_proba(X = X, check_input = check_input)
 
-	def score(self, X, y, sample_weight:np.array = None):
-		pass
+	def score(self, X:np.array, y:np.array, sample_weight:np.array = None) -> float:
+		return self.decisionTreeClassifier.score(X = X, y = y, sample_weight = sample_weight)
 
-	def set_fit_request(self, *, check_input: bool | None | str = "$UNCHANGED$", sample_weight: bool | None | str = "$UNCHANGED$") -> DecisionTreeClassifier:
-		pass
+	def set_fit_request(self, check_input: bool | None | str = "$UNCHANGED$", sample_weight: bool | None | str = "$UNCHANGED$") -> DecisionTreeClassifier:
+		return self.decisionTreeClassifier.set_fit_request(check_input, sample_weight)
 
-	def get_feature_importances(self):
+	def get_feature_importances(self) -> np.array:
 		return self.decisionTreeClassifier.feature_importances_
