@@ -14,6 +14,5 @@ dependencies:
   - tensorflow
   - seaborn
   - keras
-  - sktime-all-extras
   - pip:
     - kmodes
