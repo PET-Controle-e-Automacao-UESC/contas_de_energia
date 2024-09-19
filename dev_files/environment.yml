@@ -15,5 +15,3 @@ dependencies:
   - seaborn
   - keras
   - tslearn
-  - pip:
-    - kmodes
